@@ -1,6 +1,6 @@
 <%- include("partials/header");-%>
 
 <h1><%=postTitle%></h1>
-<p><%=content%></p>
+<p><%- content = content.replace(/(?:\r\n|\r|\n)/g, '<br>')%></p>
 
 <%- include("partials/footer");-%>
