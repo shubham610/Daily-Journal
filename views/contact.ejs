@@ -1,6 +1,16 @@
 <%- include("partials/header");-%>
 
 <h1>Contact</h1>
-<p><%=content%></p>
+<form class="" action="/contact" method="post">
+    <label>Name</label><br>
+    <input type="text" name="username" value=""><br>
+    <label>Email</label><br>
+    <input type="text" name="email" value=""><br>
+    <label>Subject</label><br>
+    <input type="text" name="subject" value=""><br>
+    <label>Messgae</label>
+    <textarea name="message" rows="5"></textarea><br>
+    <button type="submit" name="button" class="button">Send</button>
+  </form>
 
 <%- include("partials/footer");-%>

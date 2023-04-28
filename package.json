@@ -13,10 +13,12 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "ccxt": "^1.84.70",
+    "dotenv": "^16.0.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "lodash": "^4.17.21",
     "mongoose": "^6.0.8",
+    "nodemailer": "^6.9.1",
     "nodemon": "^2.0.13"
   }
 }
