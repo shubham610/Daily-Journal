@@ -72,7 +72,7 @@ app.post("/contact",function(req,res){
     }
   });
 
-  res.redirect("/contact");
+  res.redirect("/");
 });
 
 app.get("/",function(req,res){
